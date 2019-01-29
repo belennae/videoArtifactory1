@@ -17,7 +17,7 @@
             </repository>
               
              <repository>
-                <id>artifactory-release</id>
+                <id>artifactory-snapshot</id>
                 <url>http://localhost:8081/artifactory/libs-snapshot/</url>
                 <releases>
                     <updatePolicy>always</updatePolicy>
