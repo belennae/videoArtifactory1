@@ -6,6 +6,15 @@
                 <username>admin</username>
                 <password>password</password>
             </properties>
+            
+             <repository>
+                <id>artifactory-release</id>
+                <url>http://localhost:8081/artifactory/libs-release/</url>
+                <releases>
+                    <updatePolicy>always</updatePolicy>
+                </releases>
+            </repository>
+            
         </profile>
     </profiles>
 
