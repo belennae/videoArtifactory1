@@ -10,7 +10,7 @@
           <repositories>
              <repository>
                 <id>artifactory-release</id>
-                <url>http://localhost:8081/artifactory/libs-release/</url>
+                <url>http://localhost:8081/artifactory/libs-release</url>
                 <releases>
                     <updatePolicy>always</updatePolicy>
                 </releases>
@@ -18,7 +18,7 @@
               
              <repository>
                 <id>artifactory-snapshot</id>
-                <url>http://localhost:8081/artifactory/libs-snapshot/</url>
+                <url>http://localhost:8081/artifactory/libs-snapshot</url>
                 <releases>
                     <updatePolicy>always</updatePolicy>
                 </releases>
@@ -33,6 +33,8 @@
                     <protocol>http</protocol> 
                     <host>172.16.1.3</host> 
                     <port>8080</port> 
+                    <username>synopsis</username> 
+                    <password>synopsis</password>
                 </proxy> 
          </proxies>   
             
